@@ -64,8 +64,10 @@ public class RecListApp {
 	public static void listAllDraw(List<Rectangle> list) {
 		
 		//내용작성 
-		for(int i = 0; i < list.size(); i++) {
-			list.get(i).draw();
+
+		for (int i = 0; i < list.size(); i++) {
+			Rectangle rec = list.get(i);
+			rec.draw();
 		}
 	}
 	
