@@ -18,14 +18,18 @@ public class GoodsApp {
     
     	while (true) {
     		String product = sc.nextLine();	//물건 입력받음.
+    		String[] thing = product.split(",");	//입력받은 값 ,로 쪼갬
     		
-    		if("q".equals(product)) {	//만약 입력받은 문자가 q일때는 종료해라
+    		
+    		if(product.equals("q")) {	//만약 입력받은 문자가 q일때는 종료해라
     			System.out.println("[입력완료]");
     			System.out.println("====================");
     			break;
+    		} else {
+    			goods.add()
     		}
     		
-    		String[] thing = product.split(",");	//입력받은 값 ,로 쪼갬
+    		
     		
     		
     		
