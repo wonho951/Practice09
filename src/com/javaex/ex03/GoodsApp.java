@@ -25,6 +25,7 @@ public class GoodsApp {
     			break;
     		}
     		
+    		String[] thing = product.split(",");	//입력받은 값 ,로 쪼갬
     		
     		
     		
