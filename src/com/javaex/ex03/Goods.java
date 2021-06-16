@@ -4,7 +4,7 @@ public class Goods {
 	
 	//필드
 	private String name;
-	private int price;
+	private int price;	//int형인 애들 문자열로 변경시켜야함.
 	private int count;
 	
 	//생성자
