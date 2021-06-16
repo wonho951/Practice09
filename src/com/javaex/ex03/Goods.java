@@ -45,6 +45,8 @@ public class Goods {
 		return "Goods [name=" + name + ", price=" + price + ", count=" + count + "]";
 	}
 
-	
+	public void showInfo() {
+		System.out.println(name + "(가격:" + price + "원)이" + count + "개 입고 되었습니다.");
+	}
 
 }
